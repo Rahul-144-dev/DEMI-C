@@ -1,3 +1,4 @@
+/* find divisible numbers in as given range */
 #include <stdio.h>
 #include <math.h>
 int main()

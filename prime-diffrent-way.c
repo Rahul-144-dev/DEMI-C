@@ -1,4 +1,4 @@
-/* prime number in diffrent way */
+/* prime number in different way */
 #include <stdio.h>
 #include <math.h>
 int main()
