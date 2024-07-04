@@ -3,11 +3,11 @@
 #include <math.h>
 int main()
 {
-    int a = 0, b = 1, n, next;
+    int a = 0, b = 1, num, next = 0;
     printf("enter range for fibbonaci series : ");
-    scanf("%d", &n);
+    scanf("%d", &num);
     printf("fibbonacci series\n");
-    for (int i = 0; i <= n; i++)
+    for (int i = 0; i <= num; i++)
     {
         if (i == 0) /*1!=0*/
         {
