@@ -12,12 +12,17 @@ int main()
 }
 void sod(int n)
 {
-  int rem, sum = 0;
+  int rem, sum = 0, org = n;
   while (n != 0)
   {
     rem = n % 10;
     sum += rem;
     n /= 10;
+    // if (n != 0)
+    //   printf("%d + ", rem);
+    // else
+    //   printf("%d", rem);
   }
-  printf("sum  of digits %d is : %d ", n, sum);
+  // printf(" = %d ", sum);
+  printf("sum of digits is = %d ", sum);
 }
