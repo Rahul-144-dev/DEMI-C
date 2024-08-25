@@ -1,6 +1,5 @@
 // factorial using function
 #include <stdio.h>
-#include <math.h>
 int factorial(int n);
 int main()
 {
